@@ -3,7 +3,7 @@
 
 {% macro toggle(action, on, title, desc, confirm_on, confirm_off) %}
 <form action="{{ action }}" method="POST" class="switch-row"
-      data-confirm="{{ confirm_on if on else confirm_off }}">
+      data-confirm="{{ confirm_on if on else confirm_off }}">    
   <div>
     <div class="t">{{ title }}</div>
     <div class="d">{{ desc }}</div>
